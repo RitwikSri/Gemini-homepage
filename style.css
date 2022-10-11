@@ -1,0 +1,199 @@
+/*********variables**************/
+:root {
+    --col-bg: #EFF3FD;
+    --col-blue: #205072;
+    --col-blue-dark: #14344B;
+    --col-teal: #38A3A5;
+    --col-dark: #343434;
+    --col-grey: #5F5F5F;
+    --col-bg-dark: #D9E2F8;
+}
+
+/*******************************/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: var(--col-bg);
+}
+.container {
+    width: 1062px;
+}
+h2 {
+    font-size: 48px;
+    text-align: center;
+    color: var(--col-dark);
+}
+
+/***********Navbar************/
+.nav {
+    height: 72px;
+    background-color: white;
+}
+.navbar--list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 312px;
+    transform: translateX(-25%);
+    margin-top: 15px;
+}
+.navbar--list a {
+    text-decoration: none;
+    color: var(--col-dark);
+    font-size: 15px;
+}
+
+/**************Carousel****************/
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+}
+
+/*************Quick Overview**********/
+.overview {
+    padding: 60px;
+    margin-top: 60px;
+}
+.overview-heading {
+    margin-bottom: 56px;
+}
+.overview-card {
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 6px 12px #D9E4FF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 334px;
+}
+.overview-card img {
+    margin: 40px 0;
+}
+.overview-card h2 {
+    font-size: 24px;
+    color: var(--col-dark);
+}
+.overview-card p {
+    font-size: 16px;
+    color: var(--col-grey);
+    text-align: center;
+    margin-top: 10px;
+}
+
+/**********Success Stories*************/
+.success-stories {
+    background-color: var(--col-blue);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 120px;
+}
+.stories {
+    width: 852px;
+    color: white;
+    text-align: center;
+}
+.stories h2 {
+    color: white;
+    padding-top: 60px;
+}
+.success-content {
+    opacity: 80%;
+    font-size: 18px;
+    padding-top: 40px;
+}
+.stories div {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.stories div p {
+    margin: 0px
+}
+
+/********Let's Discuss*************/
+.discuss {
+    margin-top: 120px;
+}
+.discuss-form {
+    width: 778px;
+    background-color: white;
+    box-shadow: 0px 6px 12px #D9E4FF;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 56px;
+}
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.form-field label {
+    font-size: 14px;
+    color: var(--col-dark);
+}
+.form-field input, .form-field select, .form-field textarea {
+    margin-top: 6px;
+    height: 56px;
+    background-color: var(--col-bg);
+    border-radius: 8px;
+    border: 1px solid var(--col-bg-dark);
+    padding: 20px;
+    font-size: 14px;
+}
+.form-field select {
+    font-size: 12px;
+}
+.form-field textarea {
+    height: 96px;
+}
+.form-submit {
+    background-color: var(--col-teal);
+    color: white;
+    font-size: 18px;
+    height: 56px;
+    width: 187px;
+    border-radius: 8px;
+    border: none;
+    margin: 40px auto;
+    display: block;
+}
+
+/**********Footer*****************/
+.footer {
+    padding: 120px;
+    background-color: var(--col-blue-dark);
+    color: white;
+    margin-top: 120px;
+}
+.footer-col h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer-col hr {
+    margin-top: 12px;
+    color: var(--col-teal);
+    background-color: var(--col-teal);
+    border: 1px solid var(--col-teal);
+}
+.footer-col ul {
+    margin-top: 32px;
+    list-style-type: none;
+    padding: 0;
+}
+.footer-col li {
+    margin-bottom: 17px;
+    opacity: 0.8;
+}
+.footer-col a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footer-socials {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+}
